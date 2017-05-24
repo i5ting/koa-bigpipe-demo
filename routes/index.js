@@ -1,11 +1,11 @@
 const router = require('koa-router')()
 const bigpipe = require('koa-bigpipe')
+const pug = require('pug');
+const fs = require('fs');
 
 const sleep = ms => new Promise(r => setTimeout(r, ms))
 
 function layout() {
-  let pug = require('pug');
-  let fs = require('fs');
   let options = {
     filename: 'pug',
     basedir: process.cwd() + "/views",
