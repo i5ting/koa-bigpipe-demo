@@ -10,3 +10,5 @@ $ nvm use 7
 Now using node v7.9.0 (npm v4.2.0)
 $ npm start
 ```
+
+![Demo](demo.gif)
